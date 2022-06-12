@@ -1,0 +1,93 @@
+[
+{
+"id": "SGITEDP20200707064856016023",
+"name": "Cakes & Bakes",
+"subCategories": 
+    [
+	   {
+        "id": "SGITEDP20200707064927017600",
+        "name": "Cakes"
+	   },
+	   {
+        "id": "SGITEDP20200707064927017601",
+        "name": "Cookies"
+	   },
+       {
+        "id": "SGITEDP20200707064927017675",
+        "name": "Pastries"
+	   }
+	]
+},
+{
+"id": "SGITEDP20200707062209011671",
+"name": "Bakery & Breakfast",
+"subCategories": 
+    [
+	   {
+        "id": "SGITEDP20200707062215014300",
+        "name": "Breads"
+	   },
+	   {
+        "id": "SGITEDP20200707062215014301",
+        "name": "Pasta"
+	   },
+       {
+        "id": "SGITEDP20200707062215014388",
+        "name": "Buns & Rolls"
+	   }
+	]
+},
+{
+"id": "SGITEDP20200707065055013739",
+"name": "Ice Cream & Dessert",
+"subCategories": 
+    [
+       {
+        "id": "SGITEDP20200707062332016500",
+        "name": "Ice Cream"
+	   },
+       {
+        "id": "SGITEDP20200707062332016501",
+        "name": "Pudding"
+	   },	   
+       {
+        "id": "SGITEDP20200707062332016541",
+        "name": "Other Desserts"
+	   }
+	]
+},
+{
+"id": "SGITEDP20200707065055013000",
+"name": "Vegetables and Fruits",
+"subCategories": 
+    [
+       {
+        "id": "SGITEDP20200707062332011100",
+        "name": "Vegetables"
+	   },
+       {
+        "id": "SGITEDP20200707062332011101",
+        "name": "Fruits"
+	   }
+	]
+},
+{
+"id": "SGITEDP20200707065055012000",
+"name": "Meat, Fish & Derivatives",
+"subCategories": 
+    [
+       {
+        "id": "SGITEDP20200707062332021101",
+        "name": "Meat"
+	   },
+       {
+        "id": "SGITEDP20200707062332021102",
+        "name": "Fish"
+	   },
+       {
+        "id": "SGITEDP20200707062332021103",
+        "name": "Meat Derivatives"
+	   }
+	]
+}  
+]

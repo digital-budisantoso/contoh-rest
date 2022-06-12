@@ -1,0 +1,263 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "",
+    "version": "1.0.0",
+    "title": "Partner Integration API With Grab API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "testing@abc.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Grab Partner API",
+      "description": "Operations to communicate with Grab system",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "http://swagger.io"
+      }
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/grab-ep/oauth/token": {
+      "post": {
+        "tags": [
+          "Token"
+        ],
+        "summary": "Get access token",
+        "description": "",
+        "operationId": "AuthToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ReqToken"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Token created"
+          },
+          "405": {
+            "description": "Invalid input"
+          },
+          "501": {
+            "description": "Not Yet Implemented"
+          }
+        }
+      }
+    },
+	  "/grab-ep/merchant/menu": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "summary": "Get Menus",
+        "description": "",
+        "operationId": "MenuList",        
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "merchantID",
+            "description": "",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Token created"
+          },
+          "405": {
+            "description": "Invalid input"
+          },
+          "501": {
+            "description": "Not Yet Implemented"
+          }
+        }
+      }
+    },
+    "/grab-ep/orders": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "Submit Order",
+        "description": "",
+        "operationId": "SubmitOrder",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ReqOrder"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Token created"
+          },
+          "405": {
+            "description": "Invalid input"
+          },
+          "501": {
+            "description": "Not Yet Implemented"
+          }
+        }
+      }
+    },
+    "/grab-ep/order/state": {
+      "put": {
+        "tags": [
+          "Order State"
+        ],
+        "summary": "Push Order State",
+        "description": "",
+        "operationId": "PushOrderState",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ReqOrderState"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Token created"
+          },
+          "405": {
+            "description": "Invalid input"
+          },
+          "501": {
+            "description": "Not Yet Implemented"
+          }
+        }
+      }
+    }	
+  },
+  "definitions": {
+    "ReqToken": {
+      "type": "object",
+      "required": [
+        "client_id",
+        "client_secret",
+		"grant_type",
+		"scope"
+      ],
+      "properties": {
+        "client_id": {
+          "type": "string"
+        },
+        "client_secret": {
+          "type": "string"
+        },
+		"grant_type": {
+          "type": "string"
+        },
+		"scope": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "ReqToken"
+      }
+    },
+    "ReqOrder": {
+      "type": "object",
+      "required": [
+        "orderID",
+        "shortOrderNumber",
+		"merchantID",
+		"partnerMerchantID"
+      ],
+      "properties": {
+        "orderID": {
+          "type": "string"
+        },
+        "shortOrderNumber": {
+          "type": "string"
+        },
+		"merchantID": {
+          "type": "string"
+        },
+		"partnerMerchantID": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "ReqOrder"
+      }
+    },
+    "ReqOrderState": {
+      "type": "object",
+      "required": [
+        "merchantID",
+        "orderID",
+		"state",
+		"message",
+		"driverETA"
+      ],
+      "properties": {
+        "merchantID": {
+          "type": "string"
+        },
+        "orderID": {
+          "type": "string"
+        },
+		"state": {
+          "type": "string"
+        },
+		"message": {
+          "type": "string"
+        },
+		"driverETA": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "ReqOrderState"
+      }
+    }	
+  }
+}

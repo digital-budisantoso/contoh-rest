@@ -1,0 +1,806 @@
+[
+{
+  "merchantID": "12345",
+  "partnerMerchantID": "ARIS1003",
+  "currency": {
+    "code": "SGD",
+    "symbol": "S$",
+    "exponent": 2
+  },
+  "sections": [
+    {
+      "categories": [
+        {
+          "id": "SGITEDP20200707064856016023",
+          "name": "Cakes & Bakes",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707064927017675",
+              "name": "Pastries",
+              "items": [
+                {
+                  "id": "ITEM-01",
+                  "name": "Gourmet Flapjacks",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "Blueberries stuffed pancakes, served with scrambled eggs, baked beans, and hash brown, savoury, and sweet toppings of all day, add on of toppings available.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-2.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-01",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-01",
+                          "name": "Sunny Egg",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-02",
+                          "name": "Sausage & Chipolata",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-03",
+                          "name": "Turkey Bacon",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.5,
+                    "count": 1
+                  }
+                },
+                {
+                  "id": "ITEM-02",
+                  "name": "Mini Pancakes",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 230,
+                  "description": "Grilled chicken with creamy tomato sauce spaghetti.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-1.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-02",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 2,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-04",
+                          "name": "Honey",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        },
+                        {
+                          "id": "MODIFIER-05",
+                          "name": "Chocolate Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 2.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707062209011671",
+          "name": "Bakery & Breakfast",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062215014388",
+              "name": "Buns & Rolls",
+              "items": [
+                {
+                  "id": "ITEM-03",
+                  "name": "2 Pieces Crispy Puffs Set",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/crispy-puff.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-03",
+                      "name": "Flavour of Crispy Puff 1",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-06",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-07",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-08",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    },
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Flavour of Crispy Puff 2",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-09",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-10",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-11",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.3,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707065055013739",
+          "name": "Ice Cream & Dessert",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062332016541",
+              "name": "Other Desserts",
+              "items": [
+                {
+                  "id": "ITEM-04",
+                  "name": "Panna Cotta DePizza",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 500,
+                  "description": "Homemade eggless custard served with wild berry mix & mango sauce",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/panna-cotta.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Toppings",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-12",
+                          "name": "Caramel Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-13",
+                          "name": "More Mango Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "merchantID": "10001",
+  "partnerMerchantID": "ARIS1003",
+  "currency": {
+    "code": "SGD",
+    "symbol": "S$",
+    "exponent": 2
+  },
+  "sections": [
+    {
+      "categories": [
+        {
+          "id": "SGITEDP20200707064856016023",
+          "name": "Cakes & Bakes",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707064927017675",
+              "name": "Pastries",
+              "items": [
+                {
+                  "id": "ITEM-01",
+                  "name": "Gourmet Flapjacks",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "Blueberries stuffed pancakes, served with scrambled eggs, baked beans, and hash brown, savoury, and sweet toppings of all day, add on of toppings available.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-2.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-01",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-01",
+                          "name": "Sunny Egg",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-02",
+                          "name": "Sausage & Chipolata",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-03",
+                          "name": "Turkey Bacon",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.5,
+                    "count": 1
+                  }
+                },
+                {
+                  "id": "ITEM-02",
+                  "name": "Mini Pancakes",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 230,
+                  "description": "Grilled chicken with creamy tomato sauce spaghetti.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-1.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-02",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 2,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-04",
+                          "name": "Honey",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        },
+                        {
+                          "id": "MODIFIER-05",
+                          "name": "Chocolate Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 2.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707062209011671",
+          "name": "Bakery & Breakfast",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062215014388",
+              "name": "Buns & Rolls",
+              "items": [
+                {
+                  "id": "ITEM-03",
+                  "name": "2 Pieces Crispy Puffs Set",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/crispy-puff.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-03",
+                      "name": "Flavour of Crispy Puff 1",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-06",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-07",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-08",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    },
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Flavour of Crispy Puff 2",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-09",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-10",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-11",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.3,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707065055013739",
+          "name": "Ice Cream & Dessert",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062332016541",
+              "name": "Other Desserts",
+              "items": [
+                {
+                  "id": "ITEM-04",
+                  "name": "Panna Cotta DePizza",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 500,
+                  "description": "Homemade eggless custard served with wild berry mix & mango sauce",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/panna-cotta.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Toppings",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-12",
+                          "name": "Caramel Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-13",
+                          "name": "More Mango Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "merchantID": "10002",
+  "partnerMerchantID": "ARIS1003",
+  "currency": {
+    "code": "SGD",
+    "symbol": "S$",
+    "exponent": 2
+  },
+  "sections": [
+    {
+      "categories": [
+        {
+          "id": "SGITEDP20200707064856016023",
+          "name": "Cakes & Bakes",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707064927017675",
+              "name": "Pastries",
+              "items": [
+                {
+                  "id": "ITEM-01",
+                  "name": "Gourmet Flapjacks",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "Blueberries stuffed pancakes, served with scrambled eggs, baked beans, and hash brown, savoury, and sweet toppings of all day, add on of toppings available.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-2.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-01",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-01",
+                          "name": "Sunny Egg",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-02",
+                          "name": "Sausage & Chipolata",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-03",
+                          "name": "Turkey Bacon",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.5,
+                    "count": 1
+                  }
+                },
+                {
+                  "id": "ITEM-02",
+                  "name": "Mini Pancakes",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 230,
+                  "description": "Grilled chicken with creamy tomato sauce spaghetti.",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/pancake-1.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-02",
+                      "name": "Topping Additions",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 2,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-04",
+                          "name": "Honey",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        },
+                        {
+                          "id": "MODIFIER-05",
+                          "name": "Chocolate Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 0
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 10,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 2.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707062209011671",
+          "name": "Bakery & Breakfast",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062215014388",
+              "name": "Buns & Rolls",
+              "items": [
+                {
+                  "id": "ITEM-03",
+                  "name": "2 Pieces Crispy Puffs Set",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 220,
+                  "description": "",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/crispy-puff.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-03",
+                      "name": "Flavour of Crispy Puff 1",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-06",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-07",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-08",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    },
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Flavour of Crispy Puff 2",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-09",
+                          "name": "Chicken Curry Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-10",
+                          "name": "Sardine Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 200
+                        },
+                        {
+                          "id": "MODIFIER-11",
+                          "name": "Yam Puff",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.3,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SGITEDP20200707065055013739",
+          "name": "Ice Cream & Dessert",
+          "subCategories": [
+            {
+              "id": "SGITEDP20200707062332016541",
+              "name": "Other Desserts",
+              "items": [
+                {
+                  "id": "ITEM-04",
+                  "name": "Panna Cotta DePizza",
+                  "sequence": 0,
+                  "availableStatus": "AVAILABLE",
+                  "price": 500,
+                  "description": "Homemade eggless custard served with wild berry mix & mango sauce",
+                  "photos": [
+                    "https://developer-beta.stg-myteksi.com/assets/default-menu/panna-cotta.jpeg"
+                  ],
+                  "modifierGroups": [
+                    {
+                      "id": "MODIFIERGROUP-04",
+                      "name": "Toppings",
+                      "sequence": 0,
+                      "availableStatus": "AVAILABLE",
+                      "selectionRangeMin": 1,
+                      "selectionRangeMax": 1,
+                      "modifiers": [
+                        {
+                          "id": "MODIFIER-12",
+                          "name": "Caramel Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 100
+                        },
+                        {
+                          "id": "MODIFIER-13",
+                          "name": "More Mango Sauce",
+                          "sequence": 0,
+                          "availableStatus": "AVAILABLE",
+                          "price": 300
+                        }
+                      ]
+                    }
+                  ],
+                  "maxCount": 11,
+                  "weight": {
+                    "unit": "kg",
+                    "value": 1.2,
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]

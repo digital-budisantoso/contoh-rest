@@ -1,0 +1,162 @@
+[{
+	"provinceId": "123001",
+	"provinceName": "Jawa Barat",
+	"cities": [{
+		"cityId": "123001001",
+		"cityName": "Kota Bandung",
+		"zones": [{
+			"zoneId": "1230010010001",
+			"zoneName": "Dago",
+			"centerPont": "",
+			"demands": [{
+				"categoryId": "10",
+				"categoryName": "Meat, Fish and Derivatives",
+				"items": [{
+					"productId": "100001",
+					"productName": "Beef",
+					"metric": "Kg",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "100002",
+					"productName": "Chicken",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "100003",
+					"productName": "Fish",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			},
+			{
+				"categoryId": "12",
+				"categoryName": "Milk and Derivatives",
+				"items": [{
+					"productId": "120001",
+					"productName": "Dairy Milk",
+					"metric": "Litre",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "120002",
+					"productName": "Cheese",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "120004",
+					"productName": "Cheese",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			},
+			{
+				"categoryId": "11",
+				"categoryName": "Pasta and Noodle",
+				"items": [{
+					"productId": "110001",
+					"productName": "Noodle",
+					"metric": "Kg",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "110002",
+					"productName": "Spaghety",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "110004",
+					"productName": "Macarony",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			}]
+		}
+		]
+	}
+	]
+},
+{
+	"provinceId": "123002",
+	"provinceName": "Jawa Tengah",
+	"cities": [{
+		"cityId": "123002001",
+		"cityName": "Kota Semarang",
+		"zones": [{
+			"zoneId": "1230020010001",
+			"zoneName": "Candisari",
+			"centerPont": "",
+			"demands": [{
+				"categoryId": "10",
+				"categoryName": "Meat, Fish and Derivatives",
+				"items": [{
+					"productId": "100001",
+					"productName": "Beef",
+					"metric": "Kg",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "100002",
+					"productName": "Chicken",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "100003",
+					"productName": "Fish",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			},
+			{
+				"categoryId": "12",
+				"categoryName": "Milk and Derivatives",
+				"items": [{
+					"productId": "120001",
+					"productName": "Dairy Milk",
+					"metric": "Litre",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "120002",
+					"productName": "Cheese",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "120004",
+					"productName": "Cheese",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			},
+			{
+				"categoryId": "11",
+				"categoryName": "Pasta and Noodle",
+				"items": [{
+					"productId": "110001",
+					"productName": "Noodle",
+					"metric": "Kg",
+					"quanPerday": 12400
+				},
+				{
+					"productId": "110002",
+					"productName": "Spaghety",
+					"metric": "Kg",
+					"quanPerday": 1200
+				},
+				{
+					"productId": "110004",
+					"productName": "Macarony",
+					"metric": "Kg",
+					"quanPerday": 1200
+				}]
+			}]
+		}
+		]
+	}
+	]
+}]
